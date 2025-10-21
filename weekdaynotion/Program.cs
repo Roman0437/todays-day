@@ -1,0 +1,87 @@
+﻿/*
+Console.WriteLine("what day off the week is it? (type the number)");
+Console.WriteLine("Monday (1");
+Console.WriteLine("Tuesday (2");
+Console.WriteLine("Wednesday (3");
+Console.WriteLine("Thursday (4");
+Console.WriteLine("Friday (5");
+Console.WriteLine("Sunday (6");
+Console.WriteLine("Saturday (7");
+Console.WriteLine();
+
+Console.Write(">> ");
+
+string x = Console.ReadLine()+"";
+Console.WriteLine();
+
+
+switch (x)
+{
+    case "7":
+        x = $"It's the weekend!";
+
+        break;
+    case "1":
+        x = $"Aack! I hate Mondays!";
+
+        break;
+    case "2":
+        x = $"It's Tuesday!";
+
+        break;
+    case "3":
+        x = $"Hump Daaaay!";
+
+        break;
+    case "4":
+        x = $"It's Thursday!";
+
+        break;
+    case "5":
+        x = $"TGIF!";
+
+        break;
+    case "6":
+        x = $"It's the weekend!";
+
+        break;
+    default:
+        x = $"Please check Math!";
+        break;
+
+}
+Console.WriteLine();
+
+Console.WriteLine(x);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Console.Write("Enter your name");
+String Name = Console.ReadLine();
+
+while (Name == "")
+{
+    Console.Write("Enter your name");
+    Name = Console.ReadLine();
+}
+Console.WriteLine("Hello " + Name);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Random random = new Random();
+
+int num = random.Next(1, 21);
+
+Console.WriteLine(num);
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+int count = 0;
+while (count <= 5);
+{
+    Console.WriteLine($"Count is: {count}");
+    count++;
+}
+Console.WriteLine();
+*/
