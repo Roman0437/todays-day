@@ -1,4 +1,4 @@
-﻿/*
+﻿
 Console.WriteLine("what day off the week is it? (type the number)");
 Console.WriteLine("Monday (1");
 Console.WriteLine("Tuesday (2");
@@ -54,34 +54,3 @@ Console.WriteLine();
 
 Console.WriteLine(x);
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Console.Write("Enter your name");
-String Name = Console.ReadLine();
-
-while (Name == "")
-{
-    Console.Write("Enter your name");
-    Name = Console.ReadLine();
-}
-Console.WriteLine("Hello " + Name);
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Random random = new Random();
-
-int num = random.Next(1, 21);
-
-Console.WriteLine(num);
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-int count = 0;
-while (count <= 5);
-{
-    Console.WriteLine($"Count is: {count}");
-    count++;
-}
-Console.WriteLine();
-*/
